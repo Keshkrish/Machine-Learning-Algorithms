@@ -86,7 +86,7 @@ def Lloyds(input_data,initial_cluster,no_cluster,d):
 
 
 
-df=pd.read_csv('D:\Acad\PRML\Assignments\Assignment1\Dataset.csv', sep=',',header=None)
+df=pd.read_csv('Dataset.csv', sep=',',header=None)
 dataset = df.to_numpy()
 X=np.transpose(dataset)
 
