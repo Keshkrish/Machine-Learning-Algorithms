@@ -6,7 +6,7 @@ from textwrap import wrap
 
 
 epsilon=0.25#This the tolerance
-df=pd.read_csv("D:\Acad\PRML\Assignments\Assignment2\A2Q1.csv", sep=',',header=None)
+df=pd.read_csv("A2Q1.csv", sep=',',header=None)
 dataset = df.to_numpy()
 x=dataset
 n=len(x)
