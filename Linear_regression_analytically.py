@@ -2,7 +2,7 @@ import numpy as np
 import math
 import pandas as pd
 
-df=pd.read_csv("D:\Acad\PRML\Assignments\Assignment2\A2Q2Data_train.csv", sep=',',header=None)#The dataset is imported
+df=pd.read_csv("A2Q2Data_train.csv", sep=',',header=None)#The dataset is imported
 #please change the location of the file to that in the local computer
 dataset = df.to_numpy()
 
