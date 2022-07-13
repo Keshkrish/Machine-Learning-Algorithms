@@ -82,7 +82,7 @@ def kmeans(input_data,no_clusters): #a function to do kmeans initialization
 
     return z
 
-df=pd.read_csv('D:\Acad\PRML\Assignments\Assignment1\Dataset.csv', sep=',',header=None) #the data is read(please change to location of the file to match in the local computer)
+df=pd.read_csv('Dataset.csv', sep=',',header=None) #the data is read(please change to location of the file to match in the local computer)
 dataset = df.to_numpy()
 X=np.transpose(dataset)
 
