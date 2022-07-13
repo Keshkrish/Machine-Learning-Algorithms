@@ -25,7 +25,7 @@ def gradient_descent(X,y,lam):#Same as 2.ii with the modification for lambda
 
     return w
 
-df=pd.read_csv("D:\Acad\PRML\Assignments\Assignment2\A2Q2Data_train.csv", sep=',',header=None)
+df=pd.read_csv("A2Q2Data_train.csv", sep=',',header=None)
 dataset = df.to_numpy()
 
 y=dataset[:,100]
@@ -76,7 +76,7 @@ A=np.matmul(X,np.transpose(X))
 I=np.identity(len(A))
 w_r=np.matmul(np.matmul(np.linalg.pinv(A+(best_lam*I)),X),y)#After finding the best lambda using gradient descent, w_r is computed analytically using this lambda
 
-df2=pd.read_csv("D:\Acad\PRML\Assignments\Assignment2\A2Q2Data_test.csv", sep=',',header=None)#test set is imported
+df2=pd.read_csv("A2Q2Data_test.csv", sep=',',header=None)#test set is imported
 dataset2 = df2.to_numpy()
 
 y_test=dataset2[:,100]
