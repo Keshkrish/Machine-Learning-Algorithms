@@ -66,7 +66,7 @@ def initial(input_data,no_clusters,k_means):
 
     return z
 
-df=pd.read_csv('D:\Acad\PRML\Assignments\Assignment1\Dataset.csv', sep=',',header=None)
+df=pd.read_csv('Dataset.csv', sep=',',header=None)
 dataset = df.to_numpy()
 X=np.transpose(dataset)
 
