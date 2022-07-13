@@ -27,7 +27,7 @@ def gradient_descent(X,y,w_ml):#gradient descent is implemented
 
     return w, difference
 
-df=pd.read_csv("D:\Acad\PRML\Assignments\Assignment2\A2Q2Data_train.csv", sep=',',header=None)
+df=pd.read_csv("A2Q2Data_train.csv", sep=',',header=None)
 dataset = df.to_numpy()
 
 y=dataset[:,100]
